@@ -1,0 +1,23 @@
+footer{
+    background-color: #ffe8b4;
+}
+
+#copyrigth{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8% 24px 8%;
+    align-items: center;
+}
+
+span#copyrigth{
+    color: #1d1d1d;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px){
+#copyrigth{
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+    
+}}
